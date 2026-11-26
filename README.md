@@ -1,4 +1,4 @@
-# Shopify Functions Examples
+# Shopify Functions Boilerplate
 
 Small, readable, tested [Shopify Functions](https://shopify.dev/docs/apps/build/functions) written in JavaScript. Each one solves a real store problem, is commented line by line where it matters, and ships with unit tests you can run with plain Node (no Shopify CLI needed).
 

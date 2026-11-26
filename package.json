@@ -1,5 +1,5 @@
 {
-  "name": "shopify-functions-examples",
+  "name": "shopify-functions-boilerplate",
   "version": "1.0.0",
   "description": "Small, well-documented, tested Shopify Functions examples in JavaScript.",
   "type": "module",
