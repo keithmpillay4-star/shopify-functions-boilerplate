@@ -1,0 +1,16 @@
+query CartLinesDiscountsGenerateRunInput {
+  cart {
+    buyerIdentity {
+      customer {
+        # Aliased so the JS reads a clear boolean. Change the tag here.
+        isWholesale: hasAnyTag(tag: "wholesale")
+      }
+    }
+  }
+  discount {
+    discountClasses
+    metafield(namespace: "$app:wholesale", key: "percentage") {
+      value
+    }
+  }
+}

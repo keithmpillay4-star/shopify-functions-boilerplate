@@ -1,0 +1,14 @@
+query CartLinesDiscountsGenerateRunInput {
+  cart {
+    lines {
+      id
+      quantity
+    }
+  }
+  discount {
+    discountClasses
+    metafield(namespace: "$app:volume-discount", key: "tiers") {
+      value
+    }
+  }
+}

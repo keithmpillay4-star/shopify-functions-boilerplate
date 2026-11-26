@@ -1,0 +1,18 @@
+query CartDeliveryOptionsDiscountsGenerateRunInput {
+  cart {
+    cost {
+      subtotalAmount {
+        amount
+      }
+    }
+    deliveryGroups {
+      id
+    }
+  }
+  discount {
+    discountClasses
+    metafield(namespace: "$app:free-shipping", key: "threshold") {
+      value
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "shopify-functions-examples",
+  "version": "1.0.0",
+  "description": "Small, well-documented, tested Shopify Functions examples in JavaScript.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "test": "node --test \"extensions/**/tests/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
